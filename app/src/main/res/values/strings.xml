@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Belajar Jetpack Compose</string>
+    <string name="title_activity_box">Box</string>
+    <string name="title_activity_custom_text">CustomTextActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_text_field">TextFieldActivity</string>
+    <string name="title_activity_google_button">GoogleButtonActivity</string>
+</resources>
