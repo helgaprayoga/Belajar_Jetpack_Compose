@@ -9,4 +9,5 @@
     <string name="title_activity_text_example">TextExampleActivity</string>
     <string name="title_activity_button_example">ButtonExampleActivity</string>
     <string name="title_activity_image_example">ImageExampleActivity</string>
+    <string name="title_activity_card_example">CardExampleActivity</string>
 </resources>

@@ -16,9 +16,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".ImageExampleActivity"
+            android:name=".CardExampleActivity"
             android:exported="true"
-            android:label="@string/title_activity_image_example"
+            android:label="@string/title_activity_card_example"
             android:theme="@style/Theme.BelajarJetpackCompose" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,11 +27,15 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ImageExampleActivity"
+            android:exported="false"
+            android:label="@string/title_activity_image_example"
+            android:theme="@style/Theme.BelajarJetpackCompose"/>
+        <activity
             android:name=".ButtonExampleActivity"
             android:exported="false"
             android:label="@string/title_activity_button_example"
-            android:theme="@style/Theme.BelajarJetpackCompose"/>
-
+            android:theme="@style/Theme.BelajarJetpackCompose" />
         <activity
             android:name=".GoogleButtonActivity"
             android:exported="false"
@@ -60,7 +64,7 @@
             android:name=".TextExampleActivity"
             android:exported="false"
             android:label="@string/app_name"
-            android:theme="@style/Theme.BelajarJetpackCompose"></activity>
+            android:theme="@style/Theme.BelajarJetpackCompose" />
     </application>
 
 </manifest>
