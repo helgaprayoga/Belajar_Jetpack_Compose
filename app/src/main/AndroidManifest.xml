@@ -16,6 +16,17 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".ButtonExampleActivity"
+            android:exported="true"
+            android:label="@string/title_activity_button_example"
+            android:theme="@style/Theme.BelajarJetpackCompose" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".GoogleButtonActivity"
             android:exported="false"
             android:label="@string/title_activity_text_example"
@@ -41,14 +52,9 @@
             android:theme="@style/Theme.BelajarJetpackCompose" />
         <activity
             android:name=".TextExampleActivity"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/app_name"
             android:theme="@style/Theme.BelajarJetpackCompose">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

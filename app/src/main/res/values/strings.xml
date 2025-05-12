@@ -7,4 +7,5 @@
     <string name="title_activity_google_button">GoogleButtonActivity</string>
     <string name="title_activity_coil_image">CoilImage</string>
     <string name="title_activity_text_example">TextExampleActivity</string>
+    <string name="title_activity_button_example">ButtonExampleActivity</string>
 </resources>
