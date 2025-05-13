@@ -12,4 +12,5 @@
     <string name="title_activity_card_example">CardExampleActivity</string>
     <string name="title_activity_surface_example">SurfaceExampleActivity</string>
     <string name="title_activity_text_field_example">TextFieldExample</string>
+    <string name="title_activity_custom_text_field_example">CustomTextFieldExample</string>
 </resources>
