@@ -15,4 +15,6 @@
     <string name="title_activity_custom_text_field_example">CustomTextFieldExample</string>
     <string name="title_activity_modifier_example">ModifierExampleActivity</string>
     <string name="title_activity_custom_alert_dialog_example">CustomAlertDialogExample</string>
+    <string name="title_activity_model_bottom_action_sheet_example">ModelBottomActionSheetExample
+    </string>
 </resources>
