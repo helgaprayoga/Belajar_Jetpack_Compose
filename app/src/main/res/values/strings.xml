@@ -18,4 +18,5 @@
     <string name="title_activity_model_bottom_action_sheet_example">ModelBottomActionSheetExample
     </string>
     <string name="title_activity_modal_drawer_example">ModalDrawerExampleActivity</string>
+    <string name="title_activity_top_app_bar_example">TopAppBarExample</string>
 </resources>
