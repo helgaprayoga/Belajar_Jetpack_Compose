@@ -17,4 +17,5 @@
     <string name="title_activity_custom_alert_dialog_example">CustomAlertDialogExample</string>
     <string name="title_activity_model_bottom_action_sheet_example">ModelBottomActionSheetExample
     </string>
+    <string name="title_activity_modal_drawer_example">ModalDrawerExampleActivity</string>
 </resources>
