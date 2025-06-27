@@ -19,4 +19,5 @@
     </string>
     <string name="title_activity_modal_drawer_example">ModalDrawerExampleActivity</string>
     <string name="title_activity_top_app_bar_example">TopAppBarExample</string>
+    <string name="title_activity_drop_down_menu_example">DropDownMenuExample</string>
 </resources>
