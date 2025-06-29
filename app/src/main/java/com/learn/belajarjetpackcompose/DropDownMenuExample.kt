@@ -44,6 +44,7 @@ class DropDownMenuExample : ComponentActivity() {
 @Composable
 fun DropDownMenuFunction() {
     var expanded by remember { mutableStateOf(false) }
+    var expanded2 by remember { mutableStateOf(false) }
     val list = listOf("Option 1", "Option 2", "Option 3", "Option 4")
     var selectedText by remember { mutableStateOf(list[0]) }
 
@@ -51,24 +52,24 @@ fun DropDownMenuFunction() {
     Column(
         modifier = Modifier.padding(16.dp)
     ) {
-//        IconButton(
-//            onClick = { expanded = !expanded }
-//        ) {
-//            Icon(Icons.Default.MoreVert, contentDescription = "More Option")
-//        }
-//        DropdownMenu(
-//            expanded = expanded,
-//            onDismissRequest = { expanded = false }
-//        ) {
-//            DropdownMenuItem(
-//                text = { Text("Option 1") },
-//                onClick = {}
-//            )
-//            DropdownMenuItem(
-//                text = { Text("Option 2") },
-//                onClick = {}
-//            )
-//        }
+        IconButton(
+            onClick = { expanded2 = !expanded2 }
+        ) {
+            Icon(Icons.Default.MoreVert, contentDescription = "More Option")
+        }
+        DropdownMenu(
+            expanded = expanded2,
+            onDismissRequest = { expanded2 = false }
+        ) {
+            DropdownMenuItem(
+                text = { Text("Option 1") },
+                onClick = {}
+            )
+            DropdownMenuItem(
+                text = { Text("Option 2") },
+                onClick = {}
+            )
+        }
         ExposedDropdownMenuBox(
             expanded = expanded,
             onExpandedChange = { expanded = !expanded }
