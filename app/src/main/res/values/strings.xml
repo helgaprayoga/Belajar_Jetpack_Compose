@@ -27,4 +27,5 @@
     <string name="title_activity_state_and_re_composititon_example">StateAndReComposititonExample
     </string>
     <string name="title_activity_lazy_row_column_example">LazyRowColumnExample</string>
+    <string name="title_activity_lazy_column_image_example">LazyColumnImageExample</string>
 </resources>

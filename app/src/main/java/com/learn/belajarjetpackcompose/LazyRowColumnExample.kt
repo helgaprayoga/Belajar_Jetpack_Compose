@@ -98,7 +98,7 @@ fun RowItem(modifier: Modifier, languagesName: String) {
 }
 
 @Composable
-fun ColumnItem(modifier: Modifier, languagesName: String) {
+private fun ColumnItem(modifier: Modifier, languagesName: String) {
     Card(
         modifier = Modifier
             .padding(10.dp)
