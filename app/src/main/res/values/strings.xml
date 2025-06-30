@@ -22,4 +22,8 @@
     <string name="title_activity_drop_down_menu_example">DropDownMenuExample</string>
     <string name="title_activity_bottom_navigation_menu_example">BottomNavigationMenuExample
     </string>
+    <string name="title_activity_floating_action_button_example">FloatingActionButtonExample
+    </string>
+    <string name="title_activity_state_and_re_composititon_example">StateAndReComposititonExample
+    </string>
 </resources>
