@@ -30,4 +30,5 @@
     <string name="title_activity_lazy_column_image_example">LazyColumnImageExample</string>
     <string name="title_activity_lazy_grid_example">LazyGridExample</string>
     <string name="title_activity_scaffold_example">ScaffoldExample</string>
+    <string name="title_activity_bottom_nav_bar_example">BottomNavBarExample</string>
 </resources>
