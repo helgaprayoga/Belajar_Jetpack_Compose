@@ -16,9 +16,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".NavigationWIthArgumentsApp"
+            android:name=".NestedNavAppExample"
             android:exported="true"
-            android:label="@string/title_activity_navigation_with_arguments_app"
+            android:label="@string/title_activity_nested_nav_app_example"
             android:theme="@style/Theme.BelajarJetpackCompose" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,6 +26,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".NavigationWIthArgumentsApp"
+            android:exported="false"
+            android:label="@string/title_activity_navigation_with_arguments_app"
+            android:theme="@style/Theme.BelajarJetpackCompose" />
         <activity
             android:name=".NavigationScreenAppExample"
             android:exported="false"
