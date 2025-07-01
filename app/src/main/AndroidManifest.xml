@@ -16,9 +16,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".FloatingActionButtonExample"
+            android:name=".NavigationScreenAppExample"
             android:exported="true"
-            android:label="@string/title_activity_floating_action_button_example"
+            android:label="@string/title_activity_navigation_screen_app_example"
             android:theme="@style/Theme.BelajarJetpackCompose" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,6 +26,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".FloatingActionButtonExample"
+            android:exported="false"
+            android:label="@string/title_activity_floating_action_button_example"
+            android:theme="@style/Theme.BelajarJetpackCompose" />
         <activity
             android:name=".TopNavBarExample"
             android:exported="false"
