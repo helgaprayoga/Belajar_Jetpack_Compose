@@ -39,4 +39,5 @@
         LazyColumnNavigationMainScreen
     </string>
     <string name="title_activity_bottom_bar_nested_nav_app">BottomBarNestedNavApp</string>
+    <string name="title_activity_view_model_example">ViewModelExample</string>
 </resources>

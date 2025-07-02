@@ -16,9 +16,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".bottombarnestednav.BottomBarNestedNavApp"
+            android:name=".ViewModelExample"
             android:exported="true"
-            android:label="@string/title_activity_bottom_bar_nested_nav_app"
+            android:label="@string/title_activity_view_model_example"
             android:theme="@style/Theme.BelajarJetpackCompose" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,6 +26,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".bottombarnestednav.BottomBarNestedNavApp"
+            android:exported="false"
+            android:label="@string/title_activity_bottom_bar_nested_nav_app"
+            android:theme="@style/Theme.BelajarJetpackCompose" />
         <activity
             android:name=".lazycolumnnavigation.LazyColumnNavigationMainScreen"
             android:exported="false"
