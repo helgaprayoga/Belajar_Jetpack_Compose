@@ -16,9 +16,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".NestedNavAppExample"
+            android:name=".lazycolumnnavigation.LazyColumnNavigationMainScreen"
             android:exported="true"
-            android:label="@string/title_activity_nested_nav_app_example"
+            android:label="@string/title_activity_lazy_column_navigation_main_screen"
             android:theme="@style/Theme.BelajarJetpackCompose" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,6 +26,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".NestedNavAppExample"
+            android:exported="false"
+            android:label="@string/title_activity_nested_nav_app_example"
+            android:theme="@style/Theme.BelajarJetpackCompose" />
         <activity
             android:name=".NavigationWIthArgumentsApp"
             android:exported="false"
@@ -60,11 +65,6 @@
             android:name=".LazyGridExample"
             android:exported="false"
             android:label="@string/title_activity_lazy_grid_example"
-            android:theme="@style/Theme.BelajarJetpackCompose" />
-        <activity
-            android:name=".LazyColumnImageExample"
-            android:exported="false"
-            android:label="@string/title_activity_lazy_column_image_example"
             android:theme="@style/Theme.BelajarJetpackCompose" />
         <activity
             android:name=".LazyRowColumnExample"

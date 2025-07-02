@@ -35,4 +35,7 @@
     <string name="title_activity_navigation_screen_app_example">NavigationScreenAppExample</string>
     <string name="title_activity_navigation_with_arguments_app">NavigationWIthArgumentsApp</string>
     <string name="title_activity_nested_nav_app_example">NestedNavAppExample</string>
+    <string name="title_activity_lazy_column_navigation_main_screen">
+        LazyColumnNavigationMainScreen
+    </string>
 </resources>
