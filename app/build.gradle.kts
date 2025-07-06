@@ -60,7 +60,7 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    implementation(libs.androidx.navigation.compose)
+
     implementation(libs.androidx.navigation.compose)
 
     implementation(libs.androidx.room.ktx)
@@ -68,4 +68,22 @@ dependencies {
 
     implementation( libs.androidx.lifecycle.livedata.ktx)
 
+    // Navigation Component
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+
+    // Room components
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx.v225)
+    androidTestImplementation(libs.androidx.room.testing)
+
+    // Lifecycle components
+    implementation(libs.androidx.lifecycle.extensions)
+    implementation(libs.androidx.lifecycle.common.java8)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+
+    // Kotlin components
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72")
+    api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5")
+    api("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.5")
 }

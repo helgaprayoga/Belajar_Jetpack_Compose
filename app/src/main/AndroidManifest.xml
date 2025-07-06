@@ -16,10 +16,15 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".sobatapp.SobatApp"
+            android:exported="false"
+            android:label="@string/title_activity_sobat_app"
+            android:theme="@style/Theme.BelajarJetpackCompose" />
+        <activity
             android:name=".roomdatabaselearn.RoomDatabaseMainActivity"
             android:exported="true"
             android:label="@string/title_activity_room_database_main"
-            android:theme="@style/Theme.BelajarJetpackCompose" >
+            android:theme="@style/Theme.BelajarJetpackCompose">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
